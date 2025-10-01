@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const okEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
     if(!okEmail || pwd.length < 6){ alert('Correo o contraseña inválidos.'); return; }
     localStorage.setItem('nexa_logged', remember ? 'remember' : '1');
-    window.location.href = 'admin.html';
+    window.location.href = 'index.html';
   });
 
 
