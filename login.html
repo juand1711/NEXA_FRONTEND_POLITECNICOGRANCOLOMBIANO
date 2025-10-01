@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NEXA • Iniciar sesión</title>
+    <link rel="stylesheet" href="Assets/Css/styles.css">
+  </head>
+  <body class="auth">
+    <main class="auth-center">
+      <form id="loginForm" class="auth-card" aria-labelledby="authTitle">
+        <h1 id="authTitle">Iniciar sesión</h1>
+        <p class="muted">Solo usuarios administrador</p>
+
+        <div class="field">
+          <label for="loginEmail">Correo corporativo</label>
+          <div class="input-wrap"><span class="leading" aria-hidden="true">✉️</span><input id="loginEmail" type="email" class="text-input" placeholder="email@address.com" required></div>
+        </div>
+
+        <div class="field">
+          <label for="loginPass">Contraseña</label>
+          <div class="input-wrap"><span class="leading" aria-hidden="true">🔒</span><input id="loginPass" type="password" class="text-input" placeholder="••••••••" required><button class="trailing" type="button" id="togglePass" aria-label="Mostrar u ocultar contraseña">👁️</button></div>
+        </div>
+
+        <p class="small"><a href="#" class="link">¿Olvidaste la contraseña?</a></p>
+
+        <button type="submit" class="btn wide">Iniciar sesión</button>
+
+        <label class="switch"><input id="remember" type="checkbox"><span class="slider" aria-hidden="true"></span><span class="switch-label">Recuérdame</span></label>
+      </form>
+    </main>
+
+   <script src="Assets/Js/script.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NEXA • Detalle de servicio</title>
+ <link rel="stylesheet" href="Assets/Css/styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="wrap">
+        <a class="logo" href="index.html">NEXA</a>
+        <form class="search" role="search"><input type="search" placeholder="Buscar..." aria-label="Buscar"></form>
+        <button id="burger" class="burger" aria-label="Abrir menú" aria-controls="nav" aria-expanded="false">☰</button>
+        <nav id="nav" class="nav">
+          <a href="index.html">Inicio</a><a href="servicios.html">Servicios</a><a href="login.html">Ayuda</a>
+        </nav>
+        <div class="actions"><a class="btn btn-light" href="login.html">Iniciar sesión</a><button class="btn btn-icon" aria-label="Carrito">🛒</button></div>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="product">
+        <div class="product-gallery">
+          <div class="product-main"><div class="placeholder big"></div></div>
+          <div class="thumbs"><button class="thumb active"></button><button class="thumb"></button><button class="thumb"></button></div>
+        </div>
+        <div class="product-info">
+          <h1>Título del servicio</h1>
+          <div class="rating"><span class="star on">★</span><span class="star on">★</span><span class="star on">★</span><span class="star">★</span><span class="star">★</span><small>4 Reseñas</small></div>
+          <hr class="line">
+          <div class="price-row"><div class="price">$ 12.000.000</div><select class="select"><option selected>Seleccionar nivel</option><option>Básico</option><option>Pro</option><option>Enterprise</option></select></div>
+          <hr class="line">
+          <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="cta-row"><button id="addCart" class="btn">Añadir al carrito</button><button id="favBtn" class="icon-btn" aria-pressed="false">♡</button></div>
+        </div>
+      </section>
+
+      <hr class="divider">
+
+      <section class="suggested">
+        <h2 class="section-title">Servicios que te pueden interesar</h2>
+        <div class="cards">
+          <article class="service-card"><div class="img"></div><h3 class="name">SERVICIO</h3><div class="mini-rating"><span class="star on">★</span><span class="star on">★</span><span class="star on">★</span><span class="star">★</span><span class="star">★</span></div><div class="cost">$300</div></article>
+          <article class="service-card"><div class="img"></div><h3 class="name">SERVICIO</h3><div class="mini-rating"><span class="star on">★</span><span class="star on">★</span><span class="star on">★</span><span class="star">★</span><span class="star">★</span></div><div class="cost">$300</div></article>
+          <article class="service-card"><div class="img"></div><h3 class="name">SERVICIO</h3><div class="mini-rating"><span class="star on">★</span><span class="star on">★</span><span class="star on">★</span><span class="star">★</span><span class="star">★</span></div><div class="cost">$300</div></article>
+          <article class="service-card"><div class="img"></div><h3 class="name">SERVICIO</h3><div class="mini-rating"><span class="star on">★</span><span class="star on">★</span><span class="star on">★</span><span class="star">★</span><span class="star">★</span></div><div class="cost">$300</div></article>
+          <article class="service-card"><div class="img"></div><h3 class="name">SERVICIO</h3><div class="mini-rating"><span class="star on">★</span><span class="star on">★</span><span class="star on">★</span><span class="star">★</span><span class="star">★</span></div><div class="cost">$300</div></article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap footer-grid">
+        <div>
+          <h3>Síguenos en nuestras redes</h3>
+          <div class="social"><a href="#">📘</a><a href="#">🐦</a><a href="#">📷</a><a href="#">▶️</a></div>
+        </div>
+        <form id="newsForm" class="newsletter"><h3>Recibe noticias y ofertas</h3><div class="row"><input id="email" type="email" placeholder="Tu correo electrónico"><button class="btn" type="submit">Suscribirse</button></div></form>
+      </div>
+    </footer>
+
+       <script src="Assets/Js/script.js" defer></script>
+  </body>
+</html>

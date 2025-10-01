@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NEXA • Mockup sencillo</title>
+      <link rel="stylesheet" href="Assets/Css/styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="wrap">
+        <a class="logo" href="index.html">NEXA</a>
+        <form class="search" role="search"><input type="search" placeholder="Buscar..." aria-label="Buscar"></form>
+        <button id="burger" class="burger" aria-label="Abrir menú" aria-controls="nav" aria-expanded="false">☰</button>
+        <nav id="nav" class="nav">
+          <a href="index.html">Inicio</a>
+          <a href="servicios.html">Servicios</a>
+          <a href="login.html">Ayuda</a>
+        </nav>
+        <div class="actions"><a class="btn btn-light" href="login.html">Iniciar sesión</a><button class="btn btn-icon" aria-label="Carrito">🛒</button></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero wrap">
+        <div class="hero-text">
+          <h1>NEXA</h1>
+          <p>Somos una compañía orientada a resultados.</p>
+          <p>Diseñamos, construimos y operamos productos digitales<br> que convierten intención en ingresos.</p>
+          <a class="btn" href="servicios.html">Ver servicios</a>
+        </div>
+        <div class="hero-mock">
+          <div class="window"><div class="dots"><span></span><span></span><span></span></div><div class="placeholder"></div></div>
+        </div>
+      </section>
+
+      <section class="clients">
+        <div class="wrap">
+          <h2>Algunos de nuestros clientes</h2>
+          <div class="logos"><div class="logo-card"></div><div class="logo-card"></div><div class="logo-card"></div><div class="logo-card"></div><div class="logo-card"></div></div>
+          <p class="more">+1000 clientes</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap footer-grid">
+        <div>
+          <h3>Síguenos en nuestras redes</h3>
+          <div class="social"><a href="#">📘</a><a href="#">🐦</a><a href="#">📷</a><a href="#">▶️</a></div>
+        </div>
+        <form id="newsForm" class="newsletter">
+          <h3>Recibe noticias y ofertas</h3>
+          <div class="row"><input id="email" type="email" placeholder="Tu correo electrónico"><button class="btn" type="submit">Suscribirse</button></div>
+          <small class="hint">Prometemos cero spam. Puedes cancelar cuando quieras.</small>
+        </form>
+      </div>
+    </footer>
+  <script src="Assets/Js/script.js" defer></script>
+  </body>
+</html>
